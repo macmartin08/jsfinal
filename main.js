@@ -112,8 +112,8 @@ createButton.addEventListener("click",function(event)
     removeTask.addEventListener('click', function(e) {
         node.parentNode.removeChild(node);
     }, false);
-  //.appendChild(itemTemplate.content.cloneNode(true));
-  cell3.appendChild(removeTask);
+  cell3.appendChild(itemTemplate.content.cloneNode(true));
+  //cell3.appendChild(removeTask);
   
 })
 
@@ -130,6 +130,7 @@ function removeItem(event){
   // passed selector.
 
   var remove = document.querySelector("#tablenew");
+  
 
 
 }
